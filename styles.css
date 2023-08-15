@@ -1,4 +1,62 @@
-section {
-    padding: 60px 0;
+
+/* Pricing Plan section */
+#pricing {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+#pricing h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#pricing p.lead {
+  color: #6c757d;
+  margin-bottom: 40px;
+}
+
+#pricing .card {
+  border: none;
+  background-color: #f4f4f4;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+#pricing .card-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#pricing .card-subtitle {
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+#pricing .display-5 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#pricing .card-text {
+  color: #6c757d;
+  margin-bottom: 30px}
+
+  #pricing .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
   
+  #pricing .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  #pricing .card-header {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
