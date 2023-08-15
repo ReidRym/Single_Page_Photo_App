@@ -1,5 +1,9 @@
-const tooltips = document.querySelectorAll('.tt')
+
+
+//  code for tooltips
+const tooltips = document.querySelectorAll('.tt');
 tooltips.forEach(t => {
-  new bootstrap.Tooltip(t)
-})
+  new bootstrap.Tooltip(t);
+});
+
 

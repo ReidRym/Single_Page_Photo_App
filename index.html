@@ -14,6 +14,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+  
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
@@ -609,7 +610,11 @@
         </div>
         <div class="row justify-content-center my-5">
           <div class="col-lg-6">
-            <form>
+            <form
+              class="form"
+              action="https://getform.io/f/a8bd6f55-4f52-4b0f-a86a-b472f94d9ebe"
+              method="POST"
+            >
               <label for="email" class="form-label">Email address:</label>
               <div class="input-group mb-4">
                 <span class="input-group-text">
@@ -618,8 +623,9 @@
                 <input
                   type="text"
                   id="email"
+                  name="email"
                   class="form-control"
-                  placeholder="e.g. yourmom@example.com"
+                  placeholder="e.g. InterestedClient@anything.com"
                 />
                 <!-- tooltip -->
                 <span class="input-group-text">
@@ -640,8 +646,9 @@
                 <input
                   type="text"
                   id="name"
+                  name="name"
                   class="form-control"
-                  placeholder="e.g. Yamama"
+                  placeholder="e.g. Clients Name"
                 />
                 <!-- tooltip -->
                 <span class="input-group-text">
@@ -661,7 +668,7 @@
                 <span class="input-group-text">
                   <i class="bi bi-chat-right-dots-fill text-secondary"></i>
                 </span>
-                <select class="form-select" id="subject">
+                <select class="form-select" id="subject" name="question type">
                   <option value="pricing" selected>Pricing questions</option>
                   <option value="content">Content questions</option>
                   <option value="other">Other questions</option>
@@ -671,6 +678,7 @@
                 <textarea
                   class="form-control"
                   id="query"
+                  name="query"
                   style="height: 140px"
                   placeholder="query"
                 ></textarea>
@@ -695,13 +703,16 @@
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
             <p class="text-muted my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              exercitationem voluptatibus porro, hic asperiores fuga illo
-              voluptates obcaecati deleniti veritatis sunt saepe quasi deserunt
-              ex ipsum. Est possimus, aspernatur, vitae eligendi rem odit
-              quaerat, ipsum pariatur ratione maxime delectus fuga minus
-              accusamus dolores iusto maiores accusantium cumque magnam placeat
-              quia!
+              By clicking on the "Register for Updates" button in the "Stay in
+              the Loop" section, you can subscribe to receive the latest news
+              and discounts from Bee Photography. This option allows you to stay
+              informed about any new developments, events, or promotions that
+              may be of interest to you. By signing up, you will be able to
+              access exclusive updates and discounts on their photography
+              services, ensuring that you stay up to date on the latest
+              offerings. Don't miss out on any exciting news or opportunities –
+              register now and be the first to know about Bee Photography's
+              newest updates and discounts!
             </p>
             <button
               class="btn btn-primary"
@@ -776,10 +787,17 @@
       </div>
       <div class="offcanvas-body">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. In minima
-          ducimus excepturi quasi tempore fugit quis voluptatibus aut error
-          possimus, tenetur natus magni quam voluptatem quae eligendi
-          repudiandae delectus eaque!
+          Get ready to be mesmerized by the enchanting world of bees through the
+          lens of our talented photographer! From the vibrant hues of delicate
+          flowers that serve as their playground to the intricate details of
+          their buzzing bodies, our Bee Photography collection is a sight to
+          behold. Each captured moment is an exhilarating invitation to dive
+          deeper into the captivating lives of these fascinating creatures.
+          Stunning close-ups will transport you to their world, where you can
+          almost feel the gentle touch of their fragile wings on your skin.
+          Prepare to embark on a visual journey unlike any other as you click to
+          explore additional photos that will leave you in awe of the
+          extraordinary beauty that lies within our buzzing friends.
         </p>
         <!-- dropdown -->
         <div class="dropdown mt-3">
