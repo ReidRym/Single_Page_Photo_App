@@ -1,8 +1,8 @@
-
-/* Pricing Plan section */
+/* Pricing Plan section */ 
 #pricing {
-  background-color: #f8f9fa;
+  background-color: #b98fe3;
   padding: 60px 0;
+  
 }
 
 #pricing h2 {
@@ -55,8 +55,43 @@
   }
   
   #pricing .card-header {
-    background-color: #007bff;
+    background-color: rgba(255, 217, 0, 0.397);
     color: #fff;
     font-weight: bold;
     padding: 10px 20px;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(236, 174, 174, 0.9);
+  }
+  
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
   }
