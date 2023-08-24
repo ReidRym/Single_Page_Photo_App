@@ -12,16 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.getElementById("superhero-link").onclick = function () {
-  document.getElementById("image").src = "./assets/DSC_0316.jpg"; //  image source
+  document.getElementById("image").src = "./assets/beephoto3.jpeg"; //  image source
   document.getElementById("image-modal").style.display = "block";
 };
 
 document.getElementById("session-scare").onclick = function () {
-  document.getElementById("image").src = "./assets/DSC_0343.jpg"; //  image source
+  document.getElementById("image").src = "./assets/beephoto1.jpg"; //  image source
   document.getElementById("image-modal").style.display = "block";
 };
 document.getElementById("levelling-up").onclick = function () {
-  document.getElementById("image").src = "./assets/DSC_0343.jpg"; //  image source
+  document.getElementById("image").src = "./assets/beephoto2.jpg"; //  image source
   document.getElementById("image-modal").style.display = "block";
 };
 
