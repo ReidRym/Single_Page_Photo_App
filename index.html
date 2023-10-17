@@ -32,7 +32,7 @@
             <i class="bi bi-facebook"></i>
 
             Dylan Thomas Realty
-            <i class="bi bi-camera2"></i>
+            <i class="bi bi-house-gear"></i>
           </span>
         </a>
         <!-- toggle button for mobile nav -->
@@ -67,7 +67,7 @@
               <a class="nav-link" href="#pricing">FAQS</a>
             </li>
             <li class="nav-item ms-2 d-none d-md-inline">
-              <a class="btn btn-secondary" href="#pricing">Schedule Now</a>
+              <a class="btn btn-secondary" href="#scheduler">Schedule Now</a>
             </li>
           </ul>
         </div>
@@ -101,7 +101,9 @@
               getting a health check for your home, helping you ensure it's in
               the best shape possible.
             </p>
-            <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+            <a href="#scheduler" class="btn btn-secondary btn-lg"
+              >Schedule Now</a
+            >
             <!-- open sidebar / offcanvas -->
             <a
               href="#sidebar"
@@ -110,7 +112,7 @@
               role="button"
               aria-controls="sidebar"
             >
-              Explore my other Photos
+              Explore Report Examples
             </a>
           </div>
           <div class="col-md-5 text-center d-none d-md-block">
@@ -118,102 +120,40 @@
             <span
               class="tt"
               data-bs-placement="bottom"
-              title="Ultimate Photography"
+              title="Thomas Realty Reports"
             >
               <img
-                src="./assets/DSC_0343.jpg"
+                src="./assets/kitchen1.jpg"
                 class="img-fluid"
-                alt="Mother and Child"
+                alt="Kitchen Table"
               />
             </span>
           </div>
         </div>
       </div>
     </section>
+    <!-- schedule -->
+    <section id="scheduler" class="inspection-scheduler">
+      <h2>Schedule a Home Inspection</h2>
+      <p>Fill out the form below to request a home inspection appointment.</p>
+      <form action="schedule.php" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
 
-    <!-- pricing plans -->
-    <section id="pricing" class="bg-light mt-5">
-      <div class="container-lg">
-        <div class="text-center">
-          <h2>Pricing Plans</h2>
-          <p class="lead text-muted">Choose a pricing plan to suit you.</p>
-        </div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
 
-        <div class="row my-5 g-0 align-items-center justify-content-center">
-          <div class="col-8 col-lg-4 col-xl-3">
-            <div class="card border-0">
-              <div class="card-body text-center py-4">
-                <h4 class="card-title">Starter Edition</h4>
-                <p class="lead card-subtitle">Picture download only</p>
-                <p class="display-5 my-4 text-primary fw-bold">$122.99</p>
-                <p class="card-text mx-5 text-muted d-none d-lg-block">
-                  With the Starter Edition package, you will receive a
-                  high-quality photography experience at an affordable rate.
-                  This package includes a one-hour photo session at a location
-                  of your choice, professional editing of your images, and a
-                  digital gallery where you can download and share your favorite
-                  photos. You will also have the option to purchase prints and
-                  other products directly from your gallery.
-                </p>
-                <a href="#" class="btn btn-outline-primary btn-lg mt-3">
-                  Buy Now
-                </a>
-              </div>
-            </div>
-          </div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
 
-          <div class="col-9 col-lg-4">
-            <div class="card border-primary border-2">
-              <div class="card-header text-center text-primary">
-                Most Popular
-              </div>
-              <div class="card-body text-center py-5">
-                <h4 class="card-title">Complete Edition</h4>
-                <p class="lead card-subtitle">Picture download & Prints</p>
-                <p class="display-4 my-4 text-primary fw-bold">$388.99</p>
-                <p class="card-text mx-5 text-muted d-none d-lg-block">
-                  For those looking for a more comprehensive package, the
-                  Complete Edition is the ideal choice. In addition to
-                  everything offered in the Starter Edition, you will benefit
-                  from a two-hour photo session, allowing for more time to
-                  capture a variety of shots and locations. This package also
-                  includes an exquisite 8x10 print of your choice, beautifully
-                  showcasing your favorite image. You will also receive a
-                  personalized USB drive containing all of your edited photos.
-                </p>
-                <a href="#" class="btn btn-outline-primary btn-lg mt-3">
-                  Buy Now
-                </a>
-              </div>
-            </div>
-          </div>
+        <label for="date">Preferred Inspection Date:</label>
+        <input type="date" id="date" name="date" required />
 
-          <div class="col-8 col-lg-4 col-xl-3">
-            <div class="card border-0">
-              <div class="card-body text-center py-4">
-                <h4 class="card-title">Ultimate Edition</h4>
-                <p class="lead card-subtitle">
-                  Downloads,Prints,and tons of extras!
-                </p>
-                <p class="display-5 my-4 text-primary fw-bold">$424.99</p>
-                <p class="card-text mx-5 text-muted d-none d-lg-block">
-                  The Ultimate Edition is designed for those seeking a truly
-                  luxurious and tailored photography experience. This package
-                  offers a three-hour photo session. Along with all the features
-                  of the Complete Edition, you will receive a stunning 16x20
-                  print, premium retouching on five select images, and a
-                  personalized photo album to showcase and cherish your precious
-                  memories.
-                </p>
-                <a href="#" class="btn btn-outline-primary btn-lg mt-3">
-                  Buy Now
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end container -->
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Request Inspection</button>
+      </form>
     </section>
 
     <!-- topics at a glance -->
