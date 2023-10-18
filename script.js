@@ -28,3 +28,11 @@ document.getElementById("levelling-up").onclick = function () {
 document.getElementsByClassName("close")[0].onclick = function () {
   document.getElementById("image-modal").style.display = "none";
 };
+document.addEventListener("DOMContentLoaded", function () {
+  const scheduleButton = document.getElementById("schedule-button");
+
+  scheduleButton.addEventListener("click", function () {
+    // Add your scheduling logic here
+    alert("Schedule Now button clicked!");
+  });
+});
